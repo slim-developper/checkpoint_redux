@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+.taskTodo {
+  background: linear-gradient(
+    70deg,
+    rgb(14, 13, 13),
+    rgb(34, 29, 29),
+    rgb(65, 52, 52)
+  );
+  margin: 5px;
+  padding:10px;
+  border-radius: 7px;
+  overflow: auto;
+}
+.todoMessagetrue {
+  color: rgb(9, 241, 9);
+  font-family:'Dancing Script',sans-serif,serif ;
+  padding:10px;
+  text-decoration: line-through;
+  
+}
+.todoMessagefalse {
+  color: rgb(8, 246, 87);
+  font-family:'Dancing Script',sans-serif,serif ;
+  padding:10px;
+  text-decoration: none;
+  
+}
+.taskButtons{
+    display: flex;
+    justify-content: center;
+
+}
